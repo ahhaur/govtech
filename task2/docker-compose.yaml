@@ -5,6 +5,8 @@ services:
   db:
     image: postgres
     restart: always
+    volumes:
+       - ./sql/DDL.sql:/docker-entrypoint-initdb.d/DDL.sql
     environment:
       POSTGRES_USER: gov
       POSTGRES_PASSWORD: gov
