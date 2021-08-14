@@ -12,7 +12,7 @@ async function getData() {
 
 function plotChart(container, data, isLog) {
   let ytype = isLog ? 'logarithmic' : 'value';
-  let cTitle = isLog ? 'Total Covid-19 Cases (Logarithmic )' : 'Total Covid-19 Cases (Linear)'
+  let cTitle = isLog ? 'Total Covid-19 Cases (Logarithmic)' : 'Total Covid-19 Cases (Linear)'
   Highcharts.chart(container, {
     chart: {zoomType: 'x'},
     title: {text: cTitle},
