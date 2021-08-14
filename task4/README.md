@@ -7,7 +7,7 @@ Use `JavaScript` to request for data.
 ## Charting
 Create 2 different charts: linear scale and logarithmic scale
 
-![Total Covid-19 Cases](./image/demo.png){ width=20% }
+![Total Covid-19 Cases](./image/demo.png)
 
 
 ## Display the charts
