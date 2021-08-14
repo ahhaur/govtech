@@ -61,10 +61,6 @@ CREATE TABLE "public"."salesperson" (
     CONSTRAINT "salesperson_pkey" PRIMARY KEY ("salesperson_id")
 ) WITH (oids = false);
 
-INSERT INTO "salesperson" ("salesperson_id", "salesperson_name") VALUES
-(1,	'aa'),
-(2,	'bbb'),
-(3,	'bbbssss');
 
 ALTER TABLE ONLY "public"."car" ADD CONSTRAINT "car_manufacturer_id_fkey" FOREIGN KEY (manufacturer_id) REFERENCES manufacturer(manufacturer_id) NOT DEFERRABLE;
 
