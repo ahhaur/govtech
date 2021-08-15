@@ -2,4 +2,4 @@ airflow/cmd
 airflow/logs/*
 task2/cmd
 task4/cmd
-
+task5/*.ipynb_checkpoints/
